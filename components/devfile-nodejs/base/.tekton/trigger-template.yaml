@@ -33,7 +33,7 @@ spec:
       - name: git-url
         value: https://github.com/karthikjeeyar/devfile-nodejs
       - name: output-image
-        value: quay.io/karthik_jk/devfile-nodejs:latest-$(tt.params.git-revision)
+        value: quay.io/karthik_jk/devfile-nodejs@sha256:2c7920263f5842bdbe500b3efdc63f6292dfda459de14814edd50200b1dbff4c-$(tt.params.git-revision)
       - name: dockerfile
         value: Dockerfile
       - name: path-context
